@@ -6,7 +6,7 @@
     <title>Trivia Game_Week 5 Homework</title>
     <link rel="stylesheet" 
           type="text/css" 
-          href="..\assets\css\style.css">
+          href="./assets/css/style.css">
     <link href="https://fonts.googleapis.com/css?family=Great+Vibes|Tangerine:700" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Great+Vibes" rel="stylesheet">
     <!-- Latest compiled and minified CSS -->
@@ -14,11 +14,12 @@
 
 	<!-- Optional theme -->
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
-
+	<script src="https://code.jquery.com/jquery.js"></script>
 	<!-- Latest compiled and minified JavaScript -->
+	<script src="./assets/javascript/app.js"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 	    
-    <script src="https://code.jquery.com/jquery.js"></script>
+    
 </head>
  
 <body>
@@ -26,15 +27,15 @@
     <div class="wrapper">
       <div>
         <h1>Total Diamond Buying Trivia</h1>
-        <img src="..\assets\images\Diamonds.jpg"/>
+        <img src="./assets/images/Diamonds.jpg"/>
     </div>
       
     <div class="questions"> 
-     <h2>Time Remaining: </h2>      
+     <div>Time Remaining: <p id = "timer" style="font-size: 20px; color: #999"></p>
+     </div>      
       <p>Which of the below is a clarity grading of a diamond?</p>
     </div>
 
-	
 	  <div class="checkbox"> 
           <div class="buttons">
 	     	<label>
@@ -85,6 +86,11 @@
 			</label>
 	   	  </div>
 	    </div>
+
+	    <div class="startButton">
+    		<div id='quiz'></div>
+    		<div class='button' id='start'> <a href='#'>Start Over</a></div>
+		</div>
 	  
 	
 	</div>
