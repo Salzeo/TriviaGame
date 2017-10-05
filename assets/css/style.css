@@ -1,38 +1,48 @@
-*{
-  box-sizing: border-box;
- }
-
-body {
-  background-image: url("../images/wallpaper7.jpg");
-  background-repeat: no-repeat;
-  background-size: 960px;
+*.container-fluid{
+	background-image: url(images/broncos.jpg);
 }
 
-.wrapper{
-  width: 500px;
-  text-align: left;
-  font-size: 25px;
-  font-family: 'Tangerine', cursive;
-  font-weight: bold;
-  color: #999;
+.answers1, .answers2, .answers3, .answers4, .answers5, .answers6, .answers7, .answers8, .answers9, .answers10{
+	margin-bottom: 2px;
+	color: white;
 }
 
- .questions{
-  margin: auto;
-  font-size: 25px;
-  text-align: left;
-  font-family: 'Tangerine', cursive;
-  color: #999;
+.questions{
+	font-weight: bold;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-size: 15px;
+	margin-top: 2px;
+	margin-bottom: 2px;
+	color: #FF6347;
 }
 
-.checkbox{
-  font-size: 12px;
-  color: #999;
-  font-family: sans-serif;
+#timer{
+	font-weight: bold;
+	color: white;
+	font-size: 25px;
 }
 
-.startButton{
-  text-align-last: right;
+h1{
+	color: #FF6347;
 }
 
+.results{
+	color: white;
+	text-align: right;
+	margin-right: 25px;
+	font-size: 15px;
+}
 
+#correctAnswer{
+	margin-top: 30%;
+}
+
+#start{
+	height: 75px;
+	width: 100px;
+	color: #FF6347;
+	border-color: blue;
+	background-color: blue;
+	font-size: 25px;
+	font-weight: bold;
+}

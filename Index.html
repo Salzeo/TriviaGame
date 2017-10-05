@@ -1,108 +1,123 @@
 <!DOCTYPE html>
-<html>
-
+<html lang="en-us">
 <head>
-    <meta charset="UTF-8", lang="en-us">
-    <title>Trivia Game_Week 5 Homework</title>
-    <link rel="stylesheet" 
-          type="text/css" 
-          href="./assets/css/style.css">
-    <link href="https://fonts.googleapis.com/css?family=Great+Vibes|Tangerine:700" rel="stylesheet">
-    
-    <link href="https://fonts.googleapis.com/css?family=Great+Vibes" rel="stylesheet">
-    <!-- Latest compiled and minified CSS -->
-	
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<title>Broncos Trivia</title>
+	<meta charset="UTF-8">
 
-	<!-- Optional theme -->
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
-	<script src="https://code.jquery.com/jquery.js"></script>
-	
-	<script src="./assets/javascript/app.js"></script>
-	
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-   
+	<!-- Bootstrap -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+
+	<!-- Viewport tag -->
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<!-- Link to CSS -->
+	<link rel="stylesheet" href="assets/css/style.css">
+
+	<!-- Link to jQuery -->
+	<script type="text/javascript" src="https://code.jquery.com/jquery-2.2.0.js"></script>
+
+	<!-- Link to javascript -->
+	<script src="assets/javascript/app.js"></script>
+
 </head>
-	
+
 <body>
-	   
-    <div class="wrapper">
-      <div>
-        <h1>Total Diamond Buying Trivia</h1>
-        <img src="./assets/images/Diamonds.jpg"/>
-    </div>
-    
-    <!--<div id='quiz'></div>
-    	<div class='button' id='next'><a href='#'>Next</a></div>
-    	<div class='button' id='prev'><a href='#'>Prev</a></div>
-    	<div class='button' id='start'> <a href='#'>Start Over</a></div>
-    </div>-->
-      
-    <div class="questions"> 
-     <div>Time Remaining: <p id = "timer" style="font-size: 20px; color: #999"></p>
-     </div>      
-      <p>Which of the below is a clarity grading of a diamond?</p>
-    </div>
-	  <div class="checkbox"> 
-          <div class="buttons">
-	     	<label>
-	     	<div class="col-xs-12 col-sm-3"><input type="checkbox">Dirty</div>
-	     	<div class="col-xs-12 col-sm-3"><input type="checkbox">Clean</div>
-	     	<div class="col-xs-12 col-sm-3"><input type="checkbox">IF3</div>
-	     	<div class="col-xs-12 col-sm-3"><input type="checkbox">SI2</div>
-	       	</label>
-	      </div>
-		</div>
-	<div class="questions">
-      <p>Select which of these is a technical color grading of a diamond.</p>
-    </div>
-      <div class="checkbox"> 
-          <div class="buttons">
-	     	<label>
-	     	<div class="col-xs-12 col-sm-3"><input type="checkbox">White</div>
-	     	<div class="col-xs-12 col-sm-3"><input type="checkbox">Yellow</div>
-	     	<div class="col-xs-12 col-sm-3"><input type="checkbox">G</div>
-	     	<div class="col-xs-12 col-sm-3"><input type="checkbox">CZ</div>
-	       	</label>
-	      </div>
-		</div>
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col-md-8">
+				<h1>Denver Broncos Trivia!</h1>
+				<button id="start">Start</button>
 
-    <div class="questions"><p>Which is a cut grading of a diamond?</p>
-    </div>      
-        <div class="checkbox"> 
-          <div class="buttons">
-	     	<label>
-	     	<div class="col-xs-12 col-sm-3"><input type="checkbox">Ideal</div>
-	     	<div class="col-xs-12 col-sm-3"><input type="checkbox">Better</div>
-	     	<div class="col-xs-12 col-sm-3"><input type="checkbox">Square</div>
-	     	<div class="col-xs-12 col-sm-3"><input type="checkbox">Round</div>
-	       	</label>
-	      </div>
-		</div>
-	  
+				<div id="timer">Time Remaining: </div>
 
-    <div class="questions"><p>Which institute provides diamond grading certificates?</p>
-    </div>
-		<div class="checkbox">
-      	  <div class="buttons">
-	        <label>
-			<div class="col-xs-12 col-sm-3"><input type="checkbox">EGL</div>
-			<div class="col-xs-12 col-sm-3"><input type="checkbox">ABC</div>
-			<div class="col-xs-12 col-sm-3"><input type="checkbox">GIG</div>
-			<div class="col-xs-12 col-sm-3"><input type="checkbox">GLD</div>
-			</label>
-	   	  </div>
-	    </div>
+				<!-- First set of questions -->
+				<div class ="questions" id = "q1"></div>
+				<div class ="answers1" id = "a1"></div>
+				<div class ="answers1" id = "a2"></div>
+				<div class ="answers1" id = "a3"></div>
+				<div class ="answers1" id = "a4"></div>
+				<div class ="answers1" id = "a5"></div>
 
-	    <div class="startButton">
-    		<div id='quiz'></div>
-    		<div class='button' id='start'> <a href='#'>Start Over</a></div>
+				<!-- Second set of questions -->
+				<div class ="questions" id = "q2"></div>
+				<div class ="answers2" id = "a6"></div>
+				<div class ="answers2" id = "a7"></div>
+				<div class ="answers2" id = "a8"></div>
+				<div class ="answers2" id = "a9"></div>
+				<div class ="answers2" id = "a10"></div>
+
+				<!-- Third set of questions -->
+				<div class ="questions" id = "q3"></div>
+				<div class ="answers3" id = "a11"></div>
+				<div class ="answers3" id = "a12"></div>
+				<div class ="answers3" id = "a13"></div>
+				<div class ="answers3" id = "a14"></div>
+				<div class ="answers3" id = "a15"></div>
+
+				<!-- Fourth set of questions -->
+				<div class ="questions" id = "q4"></div>
+				<div class ="answers4" id = "a16"></div>
+				<div class ="answers4" id = "a17"></div>
+				<div class ="answers4" id = "a18"></div>
+				<div class ="answers4" id = "a19"></div>
+				<div class ="answers4" id = "a20"></div>
+
+				<!-- Fifth set of questions -->
+				<div class ="questions" id = "q5"></div>
+				<div class ="answers5" id = "a21"></div>
+				<div class ="answers5" id = "a22"></div>
+				<div class ="answers5" id = "a23"></div>
+				<div class ="answers5" id = "a24"></div>
+				<div class ="answers5" id = "a25"></div>
+
+				<!-- Sixth set of questions -->
+				<div class ="questions" id = "q6"></div>
+				<div class ="answers6" id = "a26"></div>
+				<div class ="answers6" id = "a27"></div>
+				<div class ="answers6" id = "a28"></div>
+				<div class ="answers6" id = "a29"></div>
+				<div class ="answers6" id = "a30"></div>
+
+				<!-- Seventh set of questions -->
+				<div class ="questions" id = "q7"></div>
+				<div class ="answers7" id = "a31"></div>
+				<div class ="answers7" id = "a32"></div>
+				<div class ="answers7" id = "a33"></div>
+				<div class ="answers7" id = "a34"></div>
+				<div class ="answers7" id = "a35"></div>
+
+				<!-- Eigth set of questions -->
+				<div class ="questions" id = "q8"></div>
+				<div class ="answers8" id = "a36"></div>
+				<div class ="answers8" id = "a37"></div>
+				<div class ="answers8" id = "a38"></div>
+				<div class ="answers8" id = "a39"></div>
+				<div class ="answers8" id = "a40"></div>
+
+				<!-- Ninth set of questions -->
+				<div class ="questions" id = "q9"></div>
+				<div class ="answers9" id = "a41"></div>
+				<div class ="answers9" id = "a42"></div>
+				<div class ="answers9" id = "a43"></div>
+				<div class ="answers9" id = "a44"></div>
+				<div class ="answers9" id = "a45"></div>
+
+				<!-- Tenth and last set of questions -->
+				<div class ="questions" id = "q10"></div>
+				<div class ="answers10" id = "a46"></div>
+				<div class ="answers10" id = "a47"></div>
+				<div class ="answers10" id = "a48"></div>
+				<div class ="answers10" id = "a49"></div>
+				<div class ="answers10" id = "a50"></div>
+			</div>
+
+			<div class="col-md-2">
+				<div class="results" id="correctAnswer"></div>
+				<div class="results" id="wrongAnswer"></div>
+				<div class="results" id="unanswered"></div>
+				<div id="vonmiller"></div>
+			</div>
 		</div>
-	  
-	
 	</div>
-
 </body>
-
 </html>
-
