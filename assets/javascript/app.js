@@ -7,63 +7,63 @@ $(document).ready(function() {
 
 	var trivia = [
 		{
-			question: "Question 1: What year did the Denver Broncos start in the American Football League?",
-			answers: [" 1955", " 1960", " 1962", " 1971", " 1975"],
-			correctAnswer: " 1960"
+			question: "Question 1: What coffee is good to the last drop?",
+			answers: [" Folgers", " Maxwell House", " A Cup of Mud", " Starbucks", "Colombian "],
+			correctAnswer: " Maxwell House"
 		},
 
 		{
-			question: "Question 2: Who did the Denver Broncos defeat to win their first Super Bowl?",
-			answers: [" Greenbay Packers", " New York Jets", " Atlanta Falcons", " Oakland Raiders", " Pittsburgh Steelers"],
-			correctAnswer: " Greenbay Packers"
+			question: "Question 2: Which coffee is the best part of waking up?",
+			answers: [" Folgers", " Maxwell House", " A Cup of Mud", " Starbucks", " Colombian"],
+			correctAnswer: " Folgers"
 		},
 
 		{
-			question: "Question 3: Who leads the Denver Broncos in all time passing yards?",
-			answers: [" Peyton Manning", " John Elway", " Tim Tebow", " Jake Plummer", " Brian Griese"],
-			correctAnswer: " John Elway"
+			question: "Question 3: What does Starbucks call its brand of instant coffee which comes in portable packets of one cup envelopes?",
+			answers: [" Instant Coffee", " Crap", " Starbucks To Go", " Via", " Starbucks"],
+			correctAnswer: " Via"
 		},
 
 		{
-			question: "Question 4: I rushed for 2008 yards in 1998.  Who am I?",
-			answers: [" Olandis Gary", " Mike Anderson", " Terrell Davis", " Tatum Bell", " Michael Pittman"],
-			correctAnswer: " Terrell Davis"
+			question: "Question 4: In what city did Albert Peet open the first Peet's coffee store?",
+			answers: [" Berkeley, CA", " Peet, CO", " Seattle, WA", " Portland, OR", " Omaha, NB"],
+			correctAnswer: " Berkeley, CA"
 		},
 
 		{
-			question: "Quesetion 5: How many touchdowns did Peyton Manning throw in 2013?",
-			answers: [" 48", " 50", " 63", " 55", " 45"],
-			correctAnswer: " 55"
+			question: "Quesetion 5: Which coffee marketing campaign promised heavenly coffee?",
+			answers: [" Stay Awake", " Cup of Mud", " Dazbog", " Folgers", " Chock Full O Nuts"],
+			correctAnswer: " Chock Full O Nuts"
 		},
 
 		{
-			question: "Question 6: What major league baseball team drafted John Elway?",
-			answers: [" Colorado Rockies", " New York Yankees", " Cleveland Indians", " Los Angeles Dodgers", " Texas Rangers"],
-			correctAnswer: " New York Yankees"
+			question: "Question 6: What does my Dad call coffee?",
+			answers: [" Cup of Mud", " Coffee", " Crap", " A drink", " Some juice"],
+			correctAnswer: " Cup of Mud"
 		},
 
 		{
-			question: "Question 7: Who was the MVP of Super Bowl 50?",
-			answers: [" Von Miller", " Aqib Talib", " Peyton Manning", " DeMarcus Ware", " Derek Wolfe"],
-			correctAnswer: " Von Miller"
+			question: "Question 7: In the 17th century, France met and was charmed by coffee. Who was responsible for the introduction of the beverage in France?",
+			answers: [" Ronald Reagon", " Clint Eastwood", " Pizza Steve", " Jean de Thevenot", " Dan Wolfe"],
+			correctAnswer: " Jean de Thevenot"
 		},
 
 		{
-			question: "Question 8: How many times was Tom Brady hit in the 2015 AFC Championship game?",
-			answers: [" 3", " 20", " 11", " 9", " 12"],
-			correctAnswer: " 20"
+			question: "Question 8: Which coffee brand name was created in 1905 from John Arbuckle's Yuletide Blend?",
+			answers: [" Secret Blend", " Decaffinated", " Colombian", " Black", " Yuban"],
+			correctAnswer: " Yuban"
 		},
 
 		{
-			question: "Question 9: How many interceptions did Champ Bailey have in 2006?",
-			answers: [" 5", " 21", " 15", " 7", " 10"],
-			correctAnswer: " 10"
+			question: "Question 9:  In America, drinking coffee became prevalent in late 18th century. What was the event that caused the popularization of coffee?",
+			answers: [" Taxes on tea which resulted in the Boston Tea Party", " People wanted to sleep less", " The invention of the light bulb", " It was fancy and new", " People got tired mof drinking tea"],
+			correctAnswer: " Taxes on tea which resulted in the Boston Tea Party"
 		},
 
 		{
-			question: "Question 10: Who leads the Broncos in career touchdown receptions?",
-			answers: [" Demaryius Thomas", " Rod Smith", " Shannon Sharpe", " Emmanuel Sanders", " Ed McCaffrey"],
-			correctAnswer: " Rod Smith"
+			question: "Question 10: During World War II, American soldiers in Europe found the espresso coffee to be too strong. As a result, they diluted the espresso with hot water resulting in which coffee drink?",
+			answers: [" Cappuccino", " Americano", " Black coffee", " Latte", " Macchiato"],
+			correctAnswer: " Americano"
 		}
 
 	]

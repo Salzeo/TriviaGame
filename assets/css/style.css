@@ -1,10 +1,10 @@
 *.container-fluid{
-	background-image: url(images/broncos.jpg);
+	background-image: url(assets/images/coffeeCup.jpg);
 }
 
 .answers1, .answers2, .answers3, .answers4, .answers5, .answers6, .answers7, .answers8, .answers9, .answers10{
 	margin-bottom: 2px;
-	color: white;
+	color: black;
 }
 
 .questions{
@@ -18,7 +18,7 @@
 
 #timer{
 	font-weight: bold;
-	color: white;
+	color: black;
 	font-size: 25px;
 }
 
@@ -27,7 +27,7 @@ h1{
 }
 
 .results{
-	color: white;
+	color: black;
 	text-align: right;
 	margin-right: 25px;
 	font-size: 15px;
