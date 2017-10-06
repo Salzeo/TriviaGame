@@ -1,10 +1,14 @@
-*.container-fluid{
-	background-image: url(assets/images/coffeeCup.jpg);
+body
+{
+background-image: url("../images/Board.jpg");
+background-size: cover;
 }
+
 
 .answers1, .answers2, .answers3, .answers4, .answers5, .answers6, .answers7, .answers8, .answers9, .answers10{
 	margin-bottom: 2px;
-	color: black;
+	color: #DCDCDC;
+
 }
 
 .questions{
@@ -13,24 +17,30 @@
 	font-size: 15px;
 	margin-top: 2px;
 	margin-bottom: 2px;
-	color: #FF6347;
+	color: #DCDCDC;
+
 }
 
 #timer{
 	font-weight: bold;
-	color: black;
+	color: #DCDCDC;
 	font-size: 25px;
+  text-align: center;
+  margin-left: 427px;
 }
 
 h1{
-	color: #FF6347;
+	color: #DCDCDC;
+  text-align: center;
+  font-size: 100px;
+  margin-left: 419px;
 }
 
 .results{
-	color: black;
-	text-align: right;
+	color: #DCDCDC;
 	margin-right: 25px;
 	font-size: 15px;
+  text-align: center;
 }
 
 #correctAnswer{
@@ -40,9 +50,10 @@ h1{
 #start{
 	height: 75px;
 	width: 100px;
-	color: #FF6347;
-	border-color: blue;
-	background-color: blue;
+	color: black;
+	border-color: #DCDCDC;
+	background-color: #DCDCDC;
 	font-size: 25px;
 	font-weight: bold;
+  margin-left: 772px;
 }

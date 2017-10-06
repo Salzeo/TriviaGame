@@ -1,6 +1,6 @@
 $(document).ready(function() {
 
-	var start = 30;
+	var start = 60;
 
 	var correctAnswer = 0;
 	var wrongAnswer = 0;
@@ -319,7 +319,7 @@ $(document).ready(function() {
 				$("#correctAnswer").append("Correct: " + correctAnswer);
 				$("#wrongAnswer").append("Incorrect: " + wrongAnswer);
 				$("#unanswered").append("Unanswered: " + unanswered);
-				$("#vonmiller").prepend('<img id="theImg" src="https://media.tenor.com/images/6daf072dbdb3b331e31689f320f53b3b/tenor.gif" />')
+				//$("#yummy").prepend('<img id="theImg" src="https://giphy.com/gifs/photography-coffee-morning-7qV3yswT0K8hi" />')
 			}
 
 		}, 1000);
